@@ -254,6 +254,10 @@ class RSBGDocker(DockWidget):
 
     # --- HELPER FUNCTIONS ---
 
+    def canvasChanged(self, canvas):
+            pass
+    # ------------------------
+
     def updateButtonIcon(self, button, color):
         pixmap = QPixmap(32, 32)
         pixmap.fill(color)
